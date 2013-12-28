@@ -1,0 +1,75 @@
+/*
+* ------------------------------------------------------------------------------
+* "THE BEER-WARE LICENSE" (Revision 42):
+* <b@akhras.at> wrote this file. As long as you retain this notice you can do
+* whatever you want with this stuff. If we meet some day, and you think this
+* stuff is worth it, you can buy me a beer/mate/coffee in return Benjamin Akhras
+* ------------------------------------------------------------------------------
+*
+* Usage:
+* Set with:   https://blog.fefe.de/?css=https%3A%2F%2Fs.akhras.at/medienkompetenz.css
+* Unset with: https://blog.fefe.de/?css=
+*/
+
+body {
+  text-rendering: optimizeLegibility;
+  font-variant-ligatures: common-ligatures;
+  font-kerning: normal;
+}
+
+body > ul > li { font-family: PT Sans, Trebuchet MS, Helvetica, Arial; font-size: 1px; }
+
+h2 {
+  display: none;
+}
+
+h3 {
+  display: none;
+}
+   
+b {
+  display: none;
+}
+   
+p {
+  display: none;
+}
+   
+blockquote {
+  display: none;
+}
+
+body > ul > li > a:first-child {
+   margin-left: -25pt;
+   float: left;
+   background: #505050;
+   color: #505050;
+   text-decoration: none;
+   font-size: 15px;
+}
+
+body > ul > li > a:first-child:hover {
+   background: #000000;
+   color: #ffffff;
+}
+
+body > ul > li > a {
+   font-size: 30px;
+   color: #3399ff;
+}
+
+body > ul > li > a:hover {
+   font-size: 30px;
+   color: #0000ff;
+}
+
+body > ul > li {
+   color: #f8f8f8;
+   list-style-type: none;
+   margin-left: -15pt;
+   font-size: 1px;
+   background-color: #f8f8f8;
+}
+
+a:hover { background: #ffa }
+
