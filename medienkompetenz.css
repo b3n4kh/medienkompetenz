@@ -17,21 +17,15 @@ body {
   font-kerning: normal;
 }
 
-body > ul > li { font-family: PT Sans, Trebuchet MS, Helvetica, Arial; font-size: 1px; }
-
 h2 {
   display: none;
 }
 
-h3 {
-  display: none;
-}
-   
 b {
   display: none;
 }
    
-p {
+ul > p {
   display: none;
 }
    
@@ -58,8 +52,25 @@ body > ul > li > a {
    color: #3399ff;
 }
 
-body > ul > li > a:hover {
+body > ul > li > p > a {
    font-size: 30px;
+   color: #3399ff;
+}
+
+body > ul > li > p > a::before {
+	content: "•";
+}
+
+body > ul > li > p > a::after {
+   content: "\A";
+   white-space: pre;
+}
+
+body > ul > li > a:hover {
+   color: #0000ff;
+}
+
+body > ul > li > p > a:hover {
    color: #0000ff;
 }
 
@@ -67,7 +78,7 @@ body > ul > li {
    color: #f8f8f8;
    list-style-type: none;
    margin-left: -15pt;
-   font-size: 1px;
+   font-size: 0px;
    background-color: #f8f8f8;
 }
 
